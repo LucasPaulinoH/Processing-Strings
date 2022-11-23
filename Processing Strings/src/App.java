@@ -26,5 +26,6 @@ public class App {
         readFile(); // realiza a leitura do arquivo que contém o texto
 
         process.brutalForce(text, patterns);
+        process.KMP(text, patterns);
     }
 }
